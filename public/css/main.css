@@ -1,0 +1,45 @@
+body {
+    padding-top: 70px;
+    background-color: #DDE1D8;
+
+}
+
+header {
+    height: 142px;
+    background-color: #CBCEC5;
+    color: dark gray;
+    margin-bottom: 12px;
+}
+
+header > p.lead {
+    color: dark gray;
+    margin-left:37px;
+    font-weight: bold;
+    font-size: 1.35em;
+}
+
+header h1 {
+    margin-left: 24px;
+    padding: 12px;
+}
+.container {
+    height: auto;
+    margin-bottom: 60px;
+    padding-bottom: 3em;
+}
+
+.list-group a:hover {
+    background-color: #CBCEC5;
+    color: #000;
+}
+
+footer {
+    height: 60px;
+
+}
+
+@media(max-width: 990px){
+    header, aside {
+        display: none;
+    }
+}

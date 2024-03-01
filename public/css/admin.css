@@ -1,0 +1,28 @@
+body {
+    padding-top: 70px;
+    background-color: #cbcec5;
+    font-family: "lucida grande", verdana, tahoma, sans-serif;
+}
+
+header {
+    height: 142px;
+}
+.container {
+    height: auto;
+    /* overflow: auto; */
+    margin-bottom: 60px;
+    padding-bottom: 3em;
+}
+
+footer {
+    height: 60px;
+
+}
+
+p, ul, ol {
+    font-size: 1.2em;
+}
+
+ul, ol {
+    padding-left: 2em;
+}

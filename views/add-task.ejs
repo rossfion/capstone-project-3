@@ -1,0 +1,23 @@
+<%- include('partials/header.ejs') %>
+<%- include('partials/navigation.ejs') %>
+<!-- The add-task.ejs form is used to create a task -->
+<!-- The switch is achieved using the ternary operator -->
+    <main>
+        <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+              <h2>Add Task</h2>
+                    <form method="POST" action="/tasks/add">
+                      <p>
+                        <textarea class="form-control" name="task" rows="10"></textarea>
+                      </p>
+
+                      <p>
+                        <button class="btn btn-primary">Add Task</button>
+                      </p>
+                    </form>
+        </div><!-- ./ end main col-md-12 -->
+        </div><!-- ./ end main row -->
+        </div><!-- ./ end main container -->
+    </main>
+  <%- include('partials/footer.ejs') %>

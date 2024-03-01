@@ -1,0 +1,31 @@
+<aside class="col-lg-4">
+    <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"  disabled>
+        <button class="btn btn-outline-secondary" type="submit">Search</button>
+    </form>
+    
+    <form action ="/check" method="POST">
+	<hr style ="margin-top:10px; padding:2px;" />
+	    <h3>Login</h3>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address"  disabled>
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" disabled>
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" name="submit" type="button">Submit</button>
+                </div>
+    </form>
+	<hr style ="margin-top:10px; padding:2px;" />
+            <h3>Recent Posts</h3>
+                <% if (posts.length) { %>
+                    <div class="list-group">
+                        <% for(let post of posts) { %>
+                            <a href="/post/details/<%= post.id %>" class="list-group-item list-group-item-action" aria-current="true">
+                                <%= post.title %>
+                            </a>
+                        <% } %><!-- end for loop -->
+                <% } %><!-- end if loop -->
+                    </div>
+    </aside>

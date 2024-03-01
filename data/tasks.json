@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1709251999676,
+    "task": "Validation for login to admin area. If not logged in, return them to the home page."
+  },
+  {
+    "id": 1709252114032,
+    "task": "Make the Search function work. Alternatively, add the search form to the navigation bar so it is available when the media query for max 990px kicks in."
+  },
+  {
+    "id": 1709252128490,
+    "task": "Implement a file upload facility for images"
+  },
+  {
+    "id": 1709252141721,
+    "task": "Highlight the list-group area with an active CSS color when an item is selected"
+  },
+  {
+    "id": 1709252155077,
+    "task": "Add comments form"
+  },
+  {
+    "id": 1709252169850,
+    "task": "Add a blog archive function"
+  },
+  {
+    "id": 1709252186289,
+    "task": "Implement a HTML/JS Text Editor"
+  },
+  {
+    "id": 1709252197993,
+    "task": "Implement this TODO list using the File System (text file)"
+  },
+  {
+    "id": 1709252210718,
+    "task": "Tidy up the code"
+  },
+  {
+    "id": 1709252222329,
+    "task": "Build the project before putting it on my own site"
+  }
+]
